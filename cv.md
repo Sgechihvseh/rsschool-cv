@@ -1,11 +1,39 @@
 # Roman Khmaruk CV
 
 1. Khmaruk Roman
-2. Contact info: 
-  1.Gmail: *rkhmaruk4@gmail.com*
-  2.Linkedin: *www.linkedin.com/in/rkhmaruk*
+2. Contact info:
+    * Gmail: *rkhmaruk4@gmail.com*
+    * Linkedin: *www.linkedin.com/in/rkhmaruk*
 3. I'm already working as a programmer, it's just that my girlfriend wanted to try programming, so I decided to help her, at the same time I would improve my basic knowledge myself. My work experience is 2 years. 
 4. My real strengths are working with SQL databases. I'm also familiar with JS, React/Redux, and I'm actively learning .NET and AWS at the moment.
-5. *SQL*
-  `select id, ASCII(name) as name, birthday, ASCII(race) as race from demographics`
+5. Code example:
+    * *SQL:* 
+    ```
+    select id, 
+           ASCII(name) as name, 
+           birthday, 
+           ASCII(race) as race 
+    from demographics
+    ```
+    * *JS:* 
+    ```
+    var countBits = function(n) {
+      if (n >= 0) {
+        var bitNumber = n.toString(2);
+        var strNumber = bitNumber.toString();
+        var count = strNumber.split(1).length-1
+        return count;
+      }
+    };
+    
+    describe("Basic tests", () => {
+      it("Testing for fixed tests", () => {
+        assert.strictEqual(countBits(0), 0);
+        assert.strictEqual(countBits(4), 1);
+        assert.strictEqual(countBits(7), 3);
+        assert.strictEqual(countBits(9), 2);
+        assert.strictEqual(countBits(10), 2);
+      })
+   })
+    ```
 6. 2 years of commercial development experience
