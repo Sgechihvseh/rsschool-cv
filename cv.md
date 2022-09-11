@@ -34,7 +34,7 @@
         assert.strictEqual(countBits(9), 2);
         assert.strictEqual(countBits(10), 2);
       })
-   })
+    })
     ```
 6. 2 years of commercial development experience
 7. BSU: Faculty of Radiophysics and Computer Technology, spec. Radiophysicist; Rolling scopes school
